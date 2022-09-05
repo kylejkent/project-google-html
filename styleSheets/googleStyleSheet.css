@@ -11,14 +11,16 @@ div {
 		width: 400px;
 		height: 30px;
 		border-radius: 20px;
-		border-width: 1px;
-		border-color: #c4c4c4;
+		/* border-width: 1px;
+		border-color: #c4c4c4; */
+		border: 1px #c4c4c4 solid;
 }
-.googleLogo {
+
+.searchLogo {
 	width: 150px;
 	margin-top: 100px;
-
 }
+
 button.primary {
 	margin-top: 20px;
 	width: 80px;
@@ -28,4 +30,51 @@ button.primary {
 	color: white;
 	border-width: 1px;
 	border-color: #4285f3;
+}
+
+nav {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+	display: inline-flex;
+}
+
+.searchResults {
+	list-style-position: inside;
+	width: 700px;
+	margin-left: 140px;
+}
+
+.resultsLogo {
+	margin-right: 30px;
+}
+.resultsInput {
+	margin-right: 30px;
+	margin-top: 20px;
+	width: 400px;
+	height: 30px;
+	border-radius: 20px;
+	border-width: 1px;
+	border-color: #c4c4c4
+}
+
+.resultsButton {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h1.searchResults {
+	font-size: 24px;
+}
+
+p {
+	font-size: 14px;
+}
+
+ul {
+	font-size: 12px;
+}
+
+small {
+	font-size: 12px;
 }
