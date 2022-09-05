@@ -1,0 +1,30 @@
+/* Nav Bar */
+body {
+	font-family: Helvetica;
+}
+div {
+	font-size: 24px;
+	text-align: center;
+	}
+	div input {
+		margin-top: 20px;
+		width: 400px;
+		height: 30px;
+		border-radius: 20px;
+		border-width: 1px;
+		border-color: #c4c4c4;
+}
+.googleLogo {
+	width: 150px;
+	margin-top: 100px;
+
+}
+button.primary {
+	margin-top: 20px;
+	width: 80px;
+	border-radius: 5px;
+	background-color: #4285f3;
+	color: white;
+	border-width: 1px;
+	border-color: #4285f3;
+}
