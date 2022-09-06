@@ -54,12 +54,20 @@ a::after {
   margin: auto;
 }
 
+.search-logo {
+  margin-top: 100px;
+}
+
 /* **BUTTONS** */
 button {
   width: 80px;
   height: 40px;
   margin-top: 10px;
+}
+
+button.results-page {
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 button.primary {
@@ -73,6 +81,10 @@ button.primary:hover {
   background-color: #5998ff;
 }
 
+button.search-page {
+  margin-top: 20px;
+}
+
 /* **FORMS** */
 
 input[type="search"] {
@@ -83,10 +95,15 @@ input[type="search"] {
   height: 40px;
   border-radius: 30px;
   border: 1px solid grey;
+  padding-left: 10px;
 }
 
 input[type="search"]:hover {
   border: 2px solid grey;
+}
+
+input.search-page {
+  margin-top: 20px;
 }
 
 /* **LAYOUT** */
@@ -104,7 +121,7 @@ nav {
   margin-left: 200px;
 }
 
-div {
+section.search-results div {
   margin-bottom: 40px;
 }
 
