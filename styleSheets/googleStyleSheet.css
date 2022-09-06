@@ -10,7 +10,6 @@ Layout
 body {
   font-family: Helvetica;
   color: #5b5b5b;
-  margin: 0;
 }
 
 nav {
@@ -51,6 +50,10 @@ a::after {
   margin-right: 30px;
 }
 
+.results-logo {
+  margin: auto;
+}
+
 /* **BUTTONS** */
 button {
   width: 80px;
@@ -77,7 +80,51 @@ input[type="search"] {
   margin-right: 20px;
   margin-top: 20px;
   color: #5b5b5b;
-  height: 35px;
+  height: 40px;
   border-radius: 30px;
   border: 1px solid grey;
+}
+
+input[type="search"]:hover {
+  border: 2px solid grey;
+}
+
+/* **LAYOUT** */
+body {
+  margin: 0;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 200px auto;
+}
+
+.search-results {
+  width: 700px;
+  margin-left: 200px;
+}
+
+div {
+  margin-bottom: 40px;
+}
+
+h1 {
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 6px;
+}
+
+span {
+  display: block;
+  margin-bottom: 30px;
+  margin-left: 200px;
+  margin-top: 20px;
 }
